@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  @apply text-white font-sans antialiased;
+  @apply text-white font-sans antialiased overflow-x-hidden;
   background-color: #0a192f;
   position: relative;
 }

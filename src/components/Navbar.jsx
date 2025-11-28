@@ -22,15 +22,15 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
                 {/* Logo */}
-                <div className="flex items-center gap-3">
-                    <div className="bg-gradient-to-br from-amber-200 to-yellow-500 p-2 rounded-lg text-gray-900 shadow-lg shadow-amber-500/20">
-                        <GraduationCap size={24} />
+                <div className="flex items-center gap-2 md:gap-3 shrink-0">
+                    <div className="bg-gradient-to-br from-amber-200 to-yellow-500 p-1.5 md:p-2 rounded-lg text-gray-900 shadow-lg shadow-amber-500/20 shrink-0">
+                        <GraduationCap size={20} className="md:w-6 md:h-6" />
                     </div>
-                    <div>
-                        <h1 className="font-bold text-xl leading-none text-white">
+                    <div className="min-w-0">
+                        <h1 className="font-bold text-base md:text-xl leading-tight text-white truncate md:overflow-visible md:whitespace-nowrap">
                             Grandville Marketing
                         </h1>
-                        <p className="text-xs tracking-wider text-amber-400 font-medium">
+                        <p className="text-[10px] md:text-xs tracking-wider text-amber-400 font-medium truncate">
                             APOLLO GROUP
                         </p>
                     </div>
